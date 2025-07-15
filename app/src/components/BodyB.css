@@ -1,0 +1,104 @@
+.new{
+    font-size: 12px;  
+}
+.e-new{
+    font-size: 13px;
+    /* font-weight: bold; */
+}
+.bcard{
+    background-color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  height: 245px;
+}
+.bp{
+    background-color: rgb(246, 246, 246);
+    padding: 4px; 
+}
+.bfaq{
+    background-color: rgb(231, 230, 240);
+   
+}
+
+.reward-card .reward-name {
+  font-size: 11px;
+  font-weight: 600;
+  color: #1a2340;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+.reward-card .reward-desc {
+  font-size: 10px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.reward-card .reward-value {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1a2340;
+  text-align: center;
+}
+
+/* Slightly larger text for main (center) card */
+.reward-card{
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+.reward-card.main-card{
+  width: 55%;
+}
+.reward-card.main-card .reward-img{
+width: 100%;
+}
+.reward-card.main-card .reward-name {
+  font-size: 12px;
+}
+
+.reward-card.main-card .reward-desc {
+  font-size: 10px;
+}
+
+.reward-card.main-card .reward-value {
+  font-size: 16px;
+}
+.bdiv{
+    background-color: rgb(20, 7, 59);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    margin: 4px;
+}
+
+.arrow-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #1a2340;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  z-index: 5;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+
+.arrow-btn:hover {
+  background-color: #2a3355;
+}
+
+.left-arrow {
+  left: 5px;
+}
+
+.right-arrow {
+  right: 5px;
+}

@@ -1,0 +1,39 @@
+/* Swiper arrow buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Title bar inside cards */
+.start {
+  width: 5px;
+  height: 20px;
+  background-color: #200830;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+
+/* Make cards responsive */
+@media (max-width: 600px) {
+  .quick-links-grid .MuiGrid-item {
+    flex-basis: 33.333% !important;
+    max-width: 33.333% !important;
+  }
+  .quick-links-box {
+    width: 80px !important;
+    height: 65px !important;
+    font-size: 9px !important;
+  }
+}

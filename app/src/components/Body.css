@@ -1,0 +1,136 @@
+.custom-card {
+  background-color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  height: 220px;
+}
+
+/* .card-title {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 10px;
+} */
+
+.add {
+  background-color: rgb(0, 18, 74);
+  color: white;
+  padding: 4px 10px;
+  border: none;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: rgb(231, 233, 238);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+.img-box img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tag-btn {
+  background-color: rgb(211, 211, 223);
+  margin-right: 5px;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  border: none;
+}
+
+.img-fluid {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.video-box {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.video-box iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Launchpad icons */
+.launch-icon {
+  width: 50px;
+  height: 47px;
+  object-fit: contain;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.launch-label {
+  display: block;
+  font-size: 10px;
+  color: #333;
+}
+
+.fixed-card-height {
+  height: 242px;
+  overflow: hidden;
+}
+
+.launch-wrapper {
+  background-color: #f0f0f3;
+  padding: 6px;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.poll-form {
+  background-color: rgb(231, 233, 245);
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.undo {
+  background-color: rgb(211, 210, 218);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.survey {
+  font-size: 12px;
+}
+
+.next {
+  background-color: black;
+  padding: 5px 40px;
+  color: white;
+  font-size: 10px;
+  position: relative;
+  left: 70%;
+  top: 40px;
+}
+
+.team-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 11px;
+  background-color: #e8e8eb;
+  padding: 3px;
+}
+
+.team-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 5px;
+}

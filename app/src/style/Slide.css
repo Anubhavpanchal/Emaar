@@ -1,0 +1,73 @@
+
+
+/* Slide card for announcements inside Swiper */
+.slide-card {
+  width: 200px !important; /* Important for Swiper to respect this width */
+  border: 1px solid #e3e3e3;
+  font-size: 12px;
+  flex-shrink: 0;
+  background-color: #fff;
+}
+
+
+.slide-card img {
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+/* Button inside card */
+.slide-btn {
+  padding: 2px 6px;
+  background-color: rgb(213, 213, 225);
+  font-size: 11px;
+  border: none;
+  border-radius: 2px;
+  color: #200830;
+}
+
+/* Ensure all corners are sharp */
+.slide-card,
+.slide-card img,
+.slide-card .card-img-top,
+.slide-card .card-body,
+.slide-btn {
+  border-radius: 0 !important;
+}
+
+
+
+/* Fix container overflow */
+.bcard {
+  overflow: hidden;
+  padding: 0 10px;
+}
+
+/* Title bar styles */
+.title {
+  padding-left: 12px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.title .start {
+  width: 6px;
+  height: 20px;
+  background-color: #200830;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+
+/* Feedback Button (optional style) */
+.feedback {
+  padding: 4px 10px;
+  background-color: rgb(29, 0, 67);
+  color: white;
+  position: relative;
+  left: 67%;
+  font-size: 12px;
+  border-radius: 4px;
+}

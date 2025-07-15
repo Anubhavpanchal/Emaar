@@ -1,0 +1,24 @@
+@import "tailwindcss";
+.main-content {
+  margin-left: 50px;
+}
+.homediv{
+  width: 90%;
+  height: 10px;
+  margin-top:10px;
+}
+.appdiv{
+  height: 55px;
+}
+.start{
+  width: 5px;
+  height: 25px;
+  background-color: rgb(30, 0, 58);
+}
+.home{
+  background-color: rgb(246, 246, 248);
+}
+.navbar{
+    background-color: rgb(246, 246, 248);
+
+}
